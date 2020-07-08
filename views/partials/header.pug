@@ -20,3 +20,5 @@ header.header
                         a(href=routes.userDetail(user.id)) Profile
                     li
                         a(href=routes.logout) Log Out
+
+p locals.user : #{JSON.stringify(user)}
